@@ -1,0 +1,4 @@
+docker exec -it mongodb mongosh
+use devops
+show collections
+db.members.find()

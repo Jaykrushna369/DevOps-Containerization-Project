@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background: linear-gradient(to right, rgb(70, 70, 254), rgb(255, 100, 255), rgb(221, 73, 98));
+        }
+
+        #heading {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #heading h1 {
+
+            color: rgb(69, 67, 67)
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 250px;
+            width: 400px;
+            border: 3px solid;
+            border-image: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet) 1;
+        }
+
+        #formdiv {
+            margin-top: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        input {
+            height: 20px;
+            width: 200px;
+            border-radius: 1px 9px 1px 9px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="heading">
+        <marquee behavior="" direction="left">
+            <h1>Hello Everyone We are The team From ENCRYPTORS</h1>
+        </marquee>
+    </div>
+    <hr>
+    <div id="formdiv">
+        <form action="/add" method="post">
+            <label for="name">
+                <h3>Enter Your Name:</h3>
+            </label>
+            <input type="text" name="name" id="name" required>
+
+            <label for="age">
+                <h3>Enter Your Age:</h3>
+            </label>
+            <input type="number" name="age" id="age" required>
+
+            <input type="submit" value="Submit" style="margin-top:20px">
+        </form>
+    </div>
+
+
+</body>
+
+</html>
