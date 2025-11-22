@@ -56,8 +56,8 @@ No need for local installations of Node or MongoDB
 
 🔧 How to Run the Project
 1. Clone the Repository
-git clone https://github.com/yourusername/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/Jaykrushna369/DevOps-Containerization-Project.git
+cd DevOps-Containerization-Project
 
 2. Build & Start All Containers
 docker-compose up --build
